@@ -1,0 +1,113 @@
+/***************************  пункты меню INDEX.php **/
+ .statistics-menu{       
+     display: table; /*на всю ширину*/  
+    width: 100%;
+    text-align: center; /*текст поцентру*/
+     list-style: none;     
+    background: $head-color;    
+       li{ 
+  display: table-cell;    
+    padding: 10px 10px;
+    position: relative;      
+      
+           & select{ 
+            padding-bottom: 1px;
+            padding-top: 1px;
+           border: 1px solid #eee;
+           border-radius: 2px;                  
+            color: #555252;
+           }
+           & input{
+            padding-right: 3px;
+            padding-left: 3px;
+            border: 1px solid #eee;
+           border-radius: 2px;                  
+            color: #555252;
+           }
+}
+
+}
+          /* Smartphones */
+@media (max-width: 480px) { 
+ .statistics-menu li{ 
+ display: block; 
+width: 100%;
+ padding: 5px 0 5px 0;
+    position: relative;      
+    color: #fff;   
+           & select{ 
+            width: 80%;
+            padding-bottom: 1px;
+            padding-top: 1px;
+           border: 1px solid #eee;
+           border-radius: 2px;                  
+            color: #555252;
+           }
+           & input{
+            padding-right: 3px;
+            padding-left: 3px;
+            border: 1px solid #eee;
+           border-radius: 2px;                  
+            color: #555252;
+           }
+}
+ 
+  } 
+  
+/* Smartphones to Tablets */
+@media (min-width: 481px) and (max-width: 767px) { 
+   .statistics-menu li{ 
+ padding: 10px 0 10px 0;
+    position: relative;      
+    color: #fff;   
+           & select{ 
+            width: 80%;
+            padding-bottom: 1px;
+            padding-top: 1px;
+           border: 1px solid #eee;
+           border-radius: 2px;                  
+            color: #555252;
+           }
+           & input{
+            padding-right: 3px;
+            padding-left: 3px;
+            border: 1px solid #eee;
+           border-radius: 2px;                  
+            color: #555252;
+           }
+} 
+   }       
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 959px) {
+    .statistics-menu li{ 
+ padding: 10px 0 10px 0;
+    position: relative;      
+    color: #fff;   
+           & select{ 
+            width: 80%;
+            padding-bottom: 1px;
+            padding-top: 1px;
+           border: 1px solid #eee;
+           border-radius: 2px;                  
+            color: #555252;
+           }
+           & input{
+            padding-right: 3px;
+            padding-left: 3px;
+            border: 1px solid #eee;
+           border-radius: 2px;                  
+            color: #555252;
+           }
+}  
+    }          
+  
+/* Desktop */
+@media (min-width: 960px) and (max-width: 1199px) { 
+    
+     }       
+  
+/* Large Display */
+@media (min-width: 1200px) {
+  
+     }

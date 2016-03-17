@@ -1,0 +1,39 @@
+/******Страница с полным опсанием статьи****************/
+/*.article{
+width: 50%;
+float: right;
+padding: 20px;
+text-align: justify;
+color: #fff;
+}*/
+.full-article{
+  margin-bottom: 80px;
+}
+.title-full{
+  font-size: 18px;
+  color:$button-color;
+  padding-left: 5px;
+}
+table{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.title_table{
+  width: 20%; 
+  background: #eee;
+  border: 5px solid #fff;
+  padding:5px 10px;
+  text-shadow: none;
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(20, 103, 103);
+  }
+.text_table{
+  width: 70%;  
+  background: rgba(238, 238, 238, 0.5);
+  border: 5px solid #fff;
+   padding:5px 10px;
+    text-shadow: none;
+    font-size: 13px;
+    color: $head-color;
+}

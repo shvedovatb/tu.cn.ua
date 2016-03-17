@@ -1,0 +1,127 @@
+/*страница СТАТИСТИКИ*/
+.table_stat{
+  margin-bottom: 80px;
+}
+.statistics{
+  padding-top: 20px;
+  color:$button-color;
+  font-size: 20px;
+}
+  .table-statistics{
+    .table-statistics-title > td{ 
+      text-align: center;
+      padding: 5px 0px; 
+      color: #fff;
+      font-size: 17px; 
+      font-family: Tahoma;
+    }
+    .table-statistics-title{
+      background: $main-color;
+    }
+    .title-work{
+      background: rgba(25, 146, 209, 0.3);
+      text-align: center;
+      padding: 5px 0px; 
+      color: $button-color;
+      font-size: 17px; 
+      font-family: arial;  
+    }
+    
+    td{
+      border: 1px solid $easy-button-color;
+      font-size: 14px;
+      padding: 5px 0px 5px 10px;
+      
+      &.part{
+      font-size: 13px;
+    }
+      &>a{
+       color: $main-color; 
+      }
+      &>a:hover{
+       color: $brand-color; 
+      }
+    }
+    .forma-data{
+      padding: 0;
+    select{
+      background:#fff;
+      color:rgba(0, 112, 99, 1);
+      border:1px solid #eee;      
+    }
+    input{
+      width: 100%;
+    }
+  }
+    }
+     /* Smartphones */
+@media (max-width: 480px) { 
+.statistics{
+  padding-top: 20px;
+  color:$brand-color;
+  font-size: 14px;
+  padding-left: 5px;
+  padding-top: 0;
+}
+ .table-statistics .table-statistics-title > td{ 
+      font-size: 14px; 
+    }
+    .table-statistics .table-statistics-title .part{ 
+      font-size: 11px; 
+    }
+   .table-statistics  .title-work{
+      font-size: 15px;   
+    }
+  } 
+  
+/* Smartphones to Tablets */
+@media (min-width: 481px) and (max-width: 767px) { 
+  .statistics{
+  padding-top: 20px;
+  color:$brand-color;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-top: 0;
+}
+ .table-statistics .table-statistics-title > td{ 
+      font-size: 15px; 
+    }
+    .table-statistics .table-statistics-title .part{ 
+      font-size: 11px; 
+    }
+   .table-statistics  .title-work{
+      font-size: 15px;   
+    }
+  }  
+         
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 959px) {
+ .statistics{
+  padding-top: 20px;
+  color:$brand-color;
+  font-size: 15px;
+  padding: 5px;
+}
+ .table-statistics .table-statistics-title > td{ 
+      font-size: 16px; 
+    }
+    .table-statistics .table-statistics-title .part{ 
+      font-size: 11px; 
+    }
+   .table-statistics  .title-work{
+      font-size: 16px;   
+    }  
+    }          
+  
+/* Desktop */
+@media (min-width: 960px) and (max-width: 1199px) { 
+    .table-statistics .table-statistics-title > td{ 
+      font-size: 16px; 
+    }
+     }       
+  
+/* Large Display */
+@media (min-width: 1200px) {
+  
+     }

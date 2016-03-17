@@ -1,0 +1,13 @@
+#footer{
+margin: 0 auto; /* центрирование блока */
+background: $head-color; /* задаю фон = red(красный) fixblock */
+width: 100%; /* ширина блока fixblock */
+height: 60px; /* высота блока fixblock */
+font-size:16px; /* размер шрифта для текста в шапке(блок fixblock) = 16px */
+font-family: "Arial Black", Arial, Helvetica, sans-serif; /* указываю какой шрифт использовать */
+text-align:center; /* центрируют текст блока fixblock */
+position:fixed; /* параметр, при помощи которого мы фиксируем div-блок */
+bottom:0px; /*указываем отступ от нижней части страницы = 0px, т.е. убираем его вообще*/
+ 
+} 
+ 

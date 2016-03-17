@@ -1,0 +1,65 @@
+
+.teacher-inform{
+	padding: 10px;
+} 
+#fio{
+	font-family: arial  serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: $main-color;
+	padding-left: 10px;
+}
+ #universitet{ 	
+	font-size: 19px;
+	color: $easy-button-color;
+	padding-left: 10px;
+ }
+ #facultet, #cafedra{
+	color:$grey-color;	
+	font-size: 15px;
+	padding-left: 10px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #fff;
+  cursor: default;
+  background-color: $main-color;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.panel-body{
+   td{
+   	padding: 10px 20px;
+   }
+}
+.panel-body .title-panel-body td{
+	font-size: 15px;
+	color:#005751;
+}
+.tab-content{
+	margin-bottom: 80px;
+}
+   /* Smartphones */
+@media (max-width: 480px) { 
+  #fio, #universitet,
+ #facultet, #cafedra{
+ 	margin-top: -15px;
+ }
+}
+/* Smartphones to Tablets */
+@media (min-width: 481px) and (max-width: 767px) { 
+ 
+  }
+/* Tablets */
+@media (min-width: 768px) and (max-width: 959px) {
+
+     }
+/* Desktop */
+@media (min-width: 960px) and (max-width: 1199px) { 
+ 
+  }
+/* Large Display */
+@media (min-width: 1200px)  {
+ 
+     }

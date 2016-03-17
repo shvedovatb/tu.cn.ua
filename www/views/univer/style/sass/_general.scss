@@ -1,0 +1,158 @@
+*{
+  /*стили для всех тегов, id и class*/
+ margin: 0px; /*выставляем для того чтобы мы могли сами выставлять нужные нам отступы там где нам надо будет, если на определить  margin: 0px; и  padding: 0px; то в разных браузерах отступы выставляються по-разному*/
+ padding: 0px;
+  outline: none;/* мы отменяем подсвечивание всех полей и кнопок input при нажатии и фокусировке на них (это мы можем дополнительно установить именно там, где нам надо) */
+}
+
+html{
+    height: 100%;/* весь документ высотой 100%*/
+}
+
+body{
+    width: 100%;
+    min-height: 100%;  
+    font-family: $brend-font-family !important;
+    text-transform: uppercase;
+  }
+    
+img{ /*чтобы изображения никогда не выходили за рамки*/
+   max-width: 100%;
+   max-height: auto;
+   width: auto\9; /*это надо указывать для IE8*/
+}
+
+/*ДЛЯ ВСЕХ ССЫЛОК*/
+a{
+    color: #d38484;
+    text-decoration: none;
+    }
+a:hover{
+    color: #FF9933;
+}
+a, a:hover{
+    -webkit-transition: all.4s ;/*для САФАРИ*/
+    -moz-transition: all.4s ; /*длЯ МОЗИЛЫ*/
+    -o-transition: all.4s ;  /*для ОПЕРЫ*/
+    -ms-transition: all.4s ;/*для ЕІ*/
+    transition: all.4s ;     /*для всех остальных*/
+}
+/*КЛАСС CLEAR -  будет отделятьодну часть сайта от другой и делать пустую строку*/
+ .clear{
+     clear: both;
+ }    
+    
+  .wrapper{
+    float: left;
+    width: 65%;
+    margin-left: 15%;
+    margin-top: 2%;
+    -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+    /*************RIGHT_COL LIST_DEPART****************/
+/*.univer{min-height: 620px;}*/
+.rightbar{
+width: 70%;
+float: right;  
+
+     &>.block-text{   
+      width: 100%;
+      text-align: justify;    
+  h1{
+    font-weight: bold;
+  color: $main-color;
+  font-size: 20px;
+  padding-top: 20px;
+  }
+  p{
+    color: $brand-color;
+  }
+   }
+}/*RIGHT_COL LIST_DEPART*/
+.main-text{
+  display: none;
+}
+}  
+ 
+          /* Smartphones */
+@media (max-width: 480px) { 
+ .wrapper{
+    float: left;
+    width: 100%;
+    margin-left: 0;
+    .rightbar{
+width: 100%;
+margin-bottom: 60px;
+      }       
+    } 
+  } 
+  
+/* Smartphones to Tablets */
+@media (min-width: 481px) and (max-width: 767px) { 
+    .wrapper{
+    float: left;
+    width: 100%;
+    margin-left: 0;
+    .rightbar{
+width: 100%;
+margin-bottom: 60px;
+      } 
+    } 
+   }       
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 959px) {
+       .wrapper{
+    float: left;
+    width: 100%;
+    margin-left: 0;
+      } 
+      .rightbar{
+width: 100%;
+float: left;
+      } 
+      .wrapper .rightbar .main-text{
+        display: block;
+        text-align: justify;
+         padding: 15px 20px 10px 20px;
+        color: $button-color;
+        font-size: 21px;
+        text-transform: none;
+      }
+    }          
+  
+/* Desktop */
+@media (min-width: 960px) and (max-width: 1199px) { 
+     .wrapper{
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+      } 
+      .rightbar{
+width: 100%;
+float: left;
+      } 
+.wrapper .rightbar .main-text{
+        display: block;
+        text-align: justify;
+         padding: 15px 20px 10px 20px;
+        color: $button-color;
+        font-size: 21px;
+        text-transform: none;
+      }
+     }       
+  
+/* Large Display */
+@media (min-width: 1200px) {
+  .wrapper .rightbar .main-text{
+        display: block;
+        text-align: justify;
+         padding: 15px 20px 10px 20px;
+        color: $button-color;
+        font-size: 20px;
+        text-transform: none;
+      }
+     }

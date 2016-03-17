@@ -1,0 +1,203 @@
+/*.**************************  пункты меню INDEX.php **/
+.header-menu-main{
+  display: flex; /*чтобы меню было горизонтальным мы вложим в него ячейки .menu1 li*/
+    flex:row;
+justify-content: space-between;       
+    text-align: center; /*текст поцентру*/
+     list-style: none;
+      width: 100%;
+         height:100%;
+      margin-bottom: 0px;
+}
+.header-menuTwo{ 
+ display: flex; /*чтобы меню было горизонтальным мы вложим в него ячейки .menu1 li*/
+    flex:row;
+    justify-content: flex-end;/*на всю ширину*/    
+    text-align: center; /*текст поцентру*/
+     list-style: none;
+      width: 100%;
+         height:100%; 
+
+li{   
+    padding: 10px 10px;
+    position: relative; 
+     background-color: #fff;   
+    margin: 10px;
+    border-radius: 2px;       
+     a{ /*все ссылки */      
+      text-decoration:none; /*отсутствие подчеркивания, характерного для ссылки*/
+      font-size:17px; 
+         }
+     a:visited, a:active, a:focus{
+        border: none;
+     }
+     .btn-modal{
+  color: $button-color;
+ 
+}
+}
+
+ li:hover{
+        background:$easy-button-color;
+        a{background: $easy-button-color;
+     color:#fff ; 
+        }
+      }
+  .auhtOut{
+    p{
+      font-size:13px;
+      color:$button-color;
+      margin-bottom:0px;
+    }
+    span{
+      font-size:14px;
+      color:$head-color;
+      margin:0px;
+    }
+    a{
+      font-size: 15px;
+      font-family: arial;
+      color:$head-color;
+    }
+  } 
+  .auhtOut:hover{
+    background-color: #fff; 
+  }  
+}
+
+
+ .header-menu{      
+     display: flex; /*чтобы меню было горизонтальным мы вложим в него ячейки .menu1 li*/
+    flex:row;
+    justify-content: flex-start;/*на всю ширину*/    
+    text-align: center; /*текст поцентру*/
+     list-style: none;
+      width: 100%;
+         height:100%; 
+         -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+
+  li{   
+    padding: 10px 10px;
+    position: relative; 
+     background-color: $button-color;   
+    margin: 10px;
+    border-radius: 2px;       
+     a{ /*все ссылки */      
+      text-decoration:none; /*отсутствие подчеркивания, характерного для ссылки*/
+      color:#fff;
+      font-size:17px; 
+         }
+     a:hover{
+     background: #fff;
+     color:$brand-color ;
+     }
+     a:visited, a:active, a:focus{
+        border: none;
+     }
+     .btn-modal{
+  color: #fff;
+ 
+}
+}
+
+ li:hover{
+        background-color: #fff;
+        a{color:$brand-color ;
+        }
+      }
+
+    }
+    /***************************  пункты меню MAIN.php **/
+  .main-menu{ 
+    display: table;        
+       width: 100%;
+         height:100%;     
+    text-align: center; /*текст поцентру*/
+     list-style: none;     
+         background-color: #FB771F;
+         margin-bottom: 10px;
+-webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  li{ 
+display: table-cell;
+    padding: 20px;
+    position: relative;         
+     a{ /*все ссылки */      
+      text-decoration:none; /*отсутствие подчеркивания, характерного для ссылки*/
+      color:#fff;
+      font-size:15px;   
+     
+     }
+     
+}
+ li:hover{
+        background-color: #fff;
+        a{color:$brand-color ;
+     }
+      }
+    }
+
+    /* Smartphones */
+@media (max-width: 480px) { 
+  .header-menu{
+      display: none;
+    }
+    .header-menu-main{
+     margin: 0 0 5px 0;
+     li ul li {
+      margin: 0 10px 0 0; 
+      padding: 5px 10px;
+      a{
+        font-size: 12px;
+      }
+     }     
+    }
+    .main-menu{    
+      li {
+      padding:10px 10px;
+        a{
+         font-size:13px; 
+    } 
+  }
+}
+}
+/* Smartphones to Tablets */
+@media (min-width: 481px) and (max-width: 767px) { 
+  .header-menu{
+      display: none;
+    } 
+    
+    .main-menu li a{
+         font-size:15px; 
+    }
+  }
+/* Tablets */
+@media (min-width: 768px) and (max-width: 959px) {
+ .header-menu{
+      display: none;
+    }
+    .main-menu li a{
+         font-size:17px; 
+    }
+     }
+/* Desktop */
+@media (min-width: 960px) and (max-width: 1199px) { 
+  .main-menu{
+      display: none;
+    } 
+  }
+/* Large Display */
+@media (min-width: 1200px)  {
+ .main-menu{
+      display: none;
+    } 
+     }
+
+    

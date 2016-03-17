@@ -1,0 +1,98 @@
+.block-depart{
+  margin-left: 50px;
+  margin-bottom: 80px;
+  h1{
+    font-size: 21px;
+    color: $button-color;
+    font-family: arial;
+
+  }
+   .title_table{
+    background: none;
+    td{
+      font-size: 15px;
+      color:  #444242;
+      font-family: arial;
+    }
+   }
+  tr{    
+    td{    
+      font-family: arial;
+      font-size: 10px;
+     color: #807A7A;
+     padding: 5px 8px;
+     a{
+      text-decoration: none;
+      font-size: 14px;
+       font-family: arial;
+      color:$head-color;
+     }
+    }
+  }
+}
+ /* Smartphones */
+@media (max-width: 480px) { 
+ .block-depart{
+  margin:20px 10px;  
+  h1{
+    font-size: 17px;
+  }
+  .title_table{
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+       td{
+      font-size: 13px;
+      color:  #444242;
+      font-family: arial;
+    }
+   }
+  tr td{padding-top: 5px;}
+}
+  } 
+  
+/* Smartphones to Tablets */
+@media (min-width: 481px) and (max-width: 767px) { 
+    .block-depart{
+  margin:20px 10px;  
+  h1{
+    font-size: 17px;
+  }
+  .title_table{
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+       td{
+      font-size: 13px;
+      color:  #444242;
+      font-family: arial;
+    }
+   }
+  tr td{padding-top: 5px;}
+}
+   }       
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 959px) {
+      .block-depart{
+ 
+  .title_table{
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+       td{
+      font-size: 13px;
+      color:  #444242;
+      font-family: arial;
+    }
+   }
+  
+}
+    }          
+  
+/* Desktop */
+@media (min-width: 960px) and (max-width: 1199px) { 
+    
+     }       
+  
+/* Large Display */
+@media (min-width: 1200px) {
+  
+     }

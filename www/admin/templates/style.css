@@ -1,0 +1,330 @@
+/* CSS Document */
+*{
+	padding:0; margin:0;
+	}	
+img{border:none;
+}	
+.clr{
+	clear:both;
+}
+html{}
+a:hover{text-decoration:none;}
+body{
+	background:#f2f2f2;
+	}
+.karkas{
+	width:970px; margin:0 auto; background:#fff; 
+	}
+	.head{
+		overflow:hidden; border-bottom:3px solid #d8d7d7;
+		}
+		.head img{
+			float:left; margin:35px 0 20px 30px;
+			}	
+		.head p{
+			font:12px Tahoma; float:right; color:#356581; margin:15px 30px 0 0;
+			}
+			.head p a{
+				color:#356581;
+				}	
+	.content-main{
+		width:100%; overflow:hidden;
+		}	
+		.leftBar{
+			float:left; width:200px; padding:20px 0 30px 30px;
+			}
+		.nav-left{
+			list-style:none; font:14px "Trebuchet MS"; color:#283964;
+			}	
+			.nav-left li{	
+				margin:10px 0 0 0;
+				}
+			.nav-left li a{
+				color:#283964; font-weight:bold;	
+				}
+			a.nav-activ{
+				color: #C80A0A !important; text-decoration: none;
+				}	
+			
+			.nav-left ul{
+				list-style:none; margin:0 0 10px 15px; font-size:13px;
+			}
+				.nav-left ul li{
+					margin:5px 0 0 0;
+				}
+				
+	
+	.content{
+		padding:20px 0 30px 0; margin:0 30px 0 230px; position:relative;
+		}
+	.content h2{
+		font:18px "Trebuchet MS"; color:#545555; margin:0 0 20px 0;
+		}	
+	.tabl{
+		background:#f7f7f7; width:100%; font:14px Tahoma; color:#555555; margin:0 0 20px 0;
+		}
+		a.edit{
+			color:#495d90;
+			}
+		a.del{
+			color:#C80A0A;
+			}
+		.tabl th{
+			padding:5px 0;
+			}		
+		.tabl td{
+			background:#fff; text-align:center; padding:7px 10px;
+			}
+		.number{
+			width:45px;
+			}
+		.str_name{
+			width:;
+			}
+		.str_sort{
+			width:100px;
+			}
+		.str_action{
+			width:180px;
+			}
+		.name_page{
+			text-align:left!important;
+			}	
+	.add_some{
+		margin:0 0 20px 0; display:block;
+		}	
+	.add_edit_page{
+		font: 14px Tahoma; color:#666666; width:100%; border:0;
+		}
+		.add_edit_page td{
+			padding:8px 10px 8px 0;
+			}
+		.head-text{
+			border:1px solid #666666; height:20px; width:320px; padding:0 10px; font:12px Verdana, Arial, Helvetica, sans-serif; color:#666;
+			}
+		.num-text{
+			border:1px solid #666666; height:20px; width:30px; padding:0 10px; font:12px Verdana, Arial, Helvetica, sans-serif; color:#666; text-align:center;
+			}	
+		.date-text{
+			border:1px solid #666666; height:20px; width:75px; padding:0 10px; font:12px Verdana, Arial, Helvetica, sans-serif; color:#666; 
+			}	
+		.add-edit-txt{
+			width:155px;
+			}
+		.full-text{
+			border:1px solid #666666; height:400px; width:100%; padding:0 0; font:12px Verdana, Arial, Helvetica, sans-serif; color:#666;
+			}
+		.anons-text{
+			border:1px solid #666666; height:200px; width:100%; padding:0 0; font:12px Verdana, Arial, Helvetica, sans-serif; color:#666;
+			}
+    .toggle{
+        height: 20px;
+        width: 40px;
+        cursor: pointer;
+        float: left;
+        margin: 0;
+    }		
+	.inf-down{
+		background:#ccc url(images/bg-str-up.jpg) 13px 9px no-repeat;  padding:3px 0; margin:0 0 20px 0; overflow:hidden;
+		}
+		.inf-down h3{
+			float:left; font:bold 16px "Trebuchet MS"; color:#283964;
+		}
+    .inf-up{
+		background:#ccc url(images/bg-str-down.jpg) 13px 9px no-repeat;  padding:3px 0; margin:0 0 20px 0; overflow:hidden;
+		}
+		.inf-up h3{
+			float:left; font:bold 16px "Trebuchet MS"; color:#283964;
+		}    
+		.inf span{
+			font-weight:normal; font-size:14px;
+			}
+		.inf-link{
+			float:right; margin:-2px 20px 0 0;
+		}
+	.select-inf{
+		border: 1px solid #666666; color: #666666; font: 12px Verdana,Arial,Helvetica,sans-serif; height: 20px; padding:0 0 0 10px;
+		width: 200px;
+	}
+	.inf-page{
+		margin:20px 0 0 40px; display: none;
+		}
+	.inf-tabl{
+		background:#f7f7f7; width:100%; font:13px Tahoma; color:#555555; margin:0 0 20px 0;
+		}
+		.inf-tabl th{
+			padding:3px 0;
+			}		
+		.inf-tabl td{
+			background:#fff; text-align:center; padding:4px 10px;
+			}
+
+.add_kategory{
+	margin:0 0 20px 0; position:absolute; top:20px; right:-5px;
+}
+	.crosh{ 
+		overflow:hidden; margin:0 0 30px 0;
+	} 
+		.crosh-left{
+			float:left; font:13px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#545555;
+		}
+			.crosh-left a{
+				color:#283964;
+			}
+		.crosh-right{
+			float:right; font:13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+		}
+.tabl-kat{
+		background:#f7f7f7; width:100%; font:14px Tahoma; color:#555555; margin:0 0 20px 0;
+		}		
+	.tabl-kat td{
+		background:#fff; text-align:center; padding:20px 10px 25px 10px; width: 33%;
+	}		
+	.tabl-kat td img{
+		margin:0 0 20px 0;
+	}
+    .product-table-img{
+		display: table-cell;
+		height: 205px;
+		position: relative;
+		vertical-align: middle;
+		width:1%;
+	}
+
+.pager{
+	list-style:none; overflow:hidden;
+}
+	.pager li{
+		float:left;
+	}
+	.pager li a{
+		display:block; border:1px solid #ccc; padding: 3px 10px 5px; color:#3a60bf; font:13px Tahoma; margin:0 15px 0 0;
+	}
+	.pager li a.now{
+		display:block; border:1px solid #ccc; padding: 3px 10px 5px; background:#3a60bf; color:#fff; font:13px Tahoma;
+	}
+
+.error{
+    margin-top:5px;
+    border:1px solid #765858;
+    background:#ffeded !important;
+    color:#7f5354 !important;
+    padding:3px;
+}
+.error ul{
+    list-style: disc outside none;
+    margin: 20px 0 15px 30px;
+}
+.success{
+    margin-top:5px;
+    border:1px solid #adc092;
+    background:#f0faf1 !important;
+    color:#58715e !important;
+    padding:3px;
+}
+
+/* Постраничная навигация */
+.pagination{
+    text-align:center;
+    margin: 10px;
+}
+a.nav_active{
+    border: 1px solid #ccc;
+    background-color: #0196e3;
+    color: #fff;
+    padding: 5px 7px;
+    margin: 0 2px;
+}
+a.nav_link{
+    padding: 5px 7px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    margin: 0 5px;
+    color: #777;
+}
+a.nav_link:hover{
+    background-color: #0196e3;
+    color: #fff;
+}
+/* Постраничная навигация */
+
+.small{font-size: 10px;}
+.baseimg img, .slideimg img{
+    border: 1px solid #000;
+    padding: 2px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+#butUpload{
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 5px;
+}
+#filesUpload img{
+    border: 1px solid #000;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.enter{
+	font:13px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#545555; width:225px; margin:50px auto 50px auto; padding:0 0 50px 0;
+}
+	.enter td{
+		padding:5px;
+	}
+
+/* Заказы */
+.new_orders{margin: 10px 0 0 10px;}
+.new_orders a{
+    color: #960b06;
+    font-weight: bold;
+    font: 14px "Trebuchet MS"
+}
+.highlight td{background: #ccc;}
+
+/* Сортировка */
+.sort tr {
+	cursor: move;
+}
+.tabl tr.no_sort {
+	cursor: default;
+}
+.tab1 tr{
+	width:708px;
+}
+.ui-state-highlight{ 
+	height: 32px;
+	}
+.ui-state-highlight1{ 
+	height: 25px;
+	}	
+.ui-state-highlight2{ 
+	height: 26px;
+	margin:0px 0px 20px 0px;
+	background-color:#d8d8d8 !important;
+	}	
+	
+tr.ui-state-highlight,tr.ui-state-highlight1,{ 
+	background-color:#ffeded !important;
+	 border:1px solid #765858;
+	 height:
+}
+	
+.load {
+	background:url(images/loading17.gif) center no-repeat;width:66px;height:66px;position:absolute;display:block;left:50%;top:50%;z-index:10;display: none;
+}
+.res {
+	position:absolute;display:block;left:47%;top:52%;z-index:10; padding:5px; background: none repeat scroll 0 0 #F0FAF1 !important;border: 1px solid #ADC092;color: #58715E !important;display: none;
+}
+.inf-page tr {
+	cursor: move;
+}
+.inf-page tr.no_sort {
+	cursor: default;
+}
+.toggle {
+	height:20px; width:40px;float:left;margin:0px;cursor: pointer;
+}
+div.ss {
+	cursor: move !important;
+}

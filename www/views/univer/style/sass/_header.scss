@@ -1,0 +1,168 @@
+ 
+.header{
+        float: left;
+        width: 100%;
+        height: 100%;   
+       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00a08a+2,00a08a+2,5dd0c0+8,5dd0c0+8,00a08a+17,34d0ba+20,34d0ba+20,00a08a+22,00a08a+22,34d0ba+22,00a08a+23,34d0ba+24,00a08a+24,00a08a+24,34d0ba+24,00a08a+26,00a08a+26,34d0ba+27,00a08a+28,34d0ba+30,34d0ba+30,00a08a+30,00a08a+30,00a08a+31,34d0ba+34,00a08a+38,34d0ba+41,34d0ba+41,34d0ba+41,34d0ba+41,34d0ba+41,00a08a+44,34d0ba+49,00a08a+58,00a08a+64,00a08a+95 */
+background: rgb(0,160,138); /* Old browsers */
+background: -moz-linear-gradient(left,  rgb(0,160,138) 2%, rgb(0,160,138) 2%, rgb(93,208,192) 8%, rgb(93,208,192) 8%, rgb(0,160,138) 17%, rgb(52,208,186) 20%, rgb(52,208,186) 20%, rgb(0,160,138) 22%, rgb(0,160,138) 22%, rgb(52,208,186) 22%, rgb(0,160,138) 23%, rgb(52,208,186) 24%, rgb(0,160,138) 24%, rgb(0,160,138) 24%, rgb(52,208,186) 24%, rgb(0,160,138) 26%, rgb(0,160,138) 26%, rgb(52,208,186) 27%, rgb(0,160,138) 28%, rgb(52,208,186) 30%, rgb(52,208,186) 30%, rgb(0,160,138) 30%, rgb(0,160,138) 30%, rgb(0,160,138) 31%, rgb(52,208,186) 34%, rgb(0,160,138) 38%, rgb(52,208,186) 41%, rgb(52,208,186) 41%, rgb(52,208,186) 41%, rgb(52,208,186) 41%, rgb(52,208,186) 41%, rgb(0,160,138) 44%, rgb(52,208,186) 49%, rgb(0,160,138) 58%, rgb(0,160,138) 64%, rgb(0,160,138) 95%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgb(0,160,138) 2%,rgb(0,160,138) 2%,rgb(93,208,192) 8%,rgb(93,208,192) 8%,rgb(0,160,138) 17%,rgb(52,208,186) 20%,rgb(52,208,186) 20%,rgb(0,160,138) 22%,rgb(0,160,138) 22%,rgb(52,208,186) 22%,rgb(0,160,138) 23%,rgb(52,208,186) 24%,rgb(0,160,138) 24%,rgb(0,160,138) 24%,rgb(52,208,186) 24%,rgb(0,160,138) 26%,rgb(0,160,138) 26%,rgb(52,208,186) 27%,rgb(0,160,138) 28%,rgb(52,208,186) 30%,rgb(52,208,186) 30%,rgb(0,160,138) 30%,rgb(0,160,138) 30%,rgb(0,160,138) 31%,rgb(52,208,186) 34%,rgb(0,160,138) 38%,rgb(52,208,186) 41%,rgb(52,208,186) 41%,rgb(52,208,186) 41%,rgb(52,208,186) 41%,rgb(52,208,186) 41%,rgb(0,160,138) 44%,rgb(52,208,186) 49%,rgb(0,160,138) 58%,rgb(0,160,138) 64%,rgb(0,160,138) 95%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgb(0,160,138) 2%,rgb(0,160,138) 2%,rgb(93,208,192) 8%,rgb(93,208,192) 8%,rgb(0,160,138) 17%,rgb(52,208,186) 20%,rgb(52,208,186) 20%,rgb(0,160,138) 22%,rgb(0,160,138) 22%,rgb(52,208,186) 22%,rgb(0,160,138) 23%,rgb(52,208,186) 24%,rgb(0,160,138) 24%,rgb(0,160,138) 24%,rgb(52,208,186) 24%,rgb(0,160,138) 26%,rgb(0,160,138) 26%,rgb(52,208,186) 27%,rgb(0,160,138) 28%,rgb(52,208,186) 30%,rgb(52,208,186) 30%,rgb(0,160,138) 30%,rgb(0,160,138) 30%,rgb(0,160,138) 31%,rgb(52,208,186) 34%,rgb(0,160,138) 38%,rgb(52,208,186) 41%,rgb(52,208,186) 41%,rgb(52,208,186) 41%,rgb(52,208,186) 41%,rgb(52,208,186) 41%,rgb(0,160,138) 44%,rgb(52,208,186) 49%,rgb(0,160,138) 58%,rgb(0,160,138) 64%,rgb(0,160,138) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a08a', endColorstr='#00a08a',GradientType=1 ); /* IE6-9 */
+
+  box-shadow: 0 0 7px #000;
+  .header-block{
+        margin-left: 15%;
+        width: 65%;
+        height: 100%; 
+        -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;  
+        
+  }             
+        .logotip{      
+            width: 20%;
+            height: 100px;           
+            float: left; 
+             padding-bottom: 10px;
+          padding-top: 10px;       
+        }
+      .title_head{
+        float: right;
+        width: 70%;
+        margin-top: 20px;
+        padding-right: 5px;
+        h1{
+          float: right;          
+          color: #fff;
+          font-size: 1.8em;
+          font-weight:bold;          
+        }
+        p{
+          float: right;
+          color:#fff;
+          padding-top: 10px;
+          padding-left: 30px;
+        }
+      }
+
+      /* Smartphones */
+@media (max-width: 480px) { 
+  .header-block{
+          width: 100%;           
+          margin-left:0;
+         }
+          
+        .title_head h1{
+          font-size: 1.2em;
+        }
+        .title_head p{
+          font-size: 1em;
+          padding-top: 5px;
+          padding-left: 0px;
+          margin-bottom: 0;
+        }     
+      } 
+  
+/* Smartphones to Tablets */
+@media (min-width: 481px) and (max-width: 767px) { 
+  .header-block{
+          width: 100%;           
+          margin-left:0;
+         }
+         .title_head{
+          margin-top: 30px;
+         } 
+        .title_head h1{
+          font-size: 1.4em;
+        }
+        .title_head p{
+          font-size: 1.1em;
+         padding-left: 50px;
+        padding-top: 0px;
+          } 
+           .logotip{                
+         padding-left: 10px;               
+        }
+  }
+/* Tablets */
+@media (min-width: 768px) and (max-width: 959px) {
+       .header-block{
+          width: 100%;           
+          margin-left:0;
+         }
+         .title_head{
+          margin-top: 20px;
+          padding-right: 20px;
+         } 
+        .title_head h1{
+          font-size: 1.6em;
+          margin-top: 0px;
+        }
+        .title_head p{
+          font-size: 1em;
+         padding-left: 100px;
+      padding-top: 0px;
+          } 
+           .logotip{                
+         width: 20%;
+           height: 100%;               
+         padding-left: 10px;
+         padding-bottom: 0px;               
+        }
+     }
+/* Desktop */
+@media (min-width: 960px) and (max-width: 1199px) { 
+ 
+    .header-block{
+          width: 100%;           
+          margin-left:0;
+         }
+         .title_head{
+          margin-top: 30px;
+          padding-right: 20px;
+         } 
+        .title_head h1{
+          font-size: 1.6em;
+        }
+        .title_head p{
+          font-size: 1em;
+         padding-left: 100px;
+        padding-top: 0px;
+          } 
+           .logotip{ 
+           width: 20%;
+           height: 100%;               
+         padding-left: 10px;
+                   
+        }
+  }
+/* Large Display */
+@media (min-width: 1200px) and (max-width: 1400px) {
+ .header-block{
+          width: 90%;           
+          margin-left:5%;
+         }
+         .title_head{
+          margin-top: 30px;
+          padding-right: 20px;
+         } 
+        .title_head h1{
+          font-size: 1.8em;
+        }
+        .title_head p{
+          font-size: 1.2em;
+         padding-left: 100px;
+        padding-top: 0px;
+          } 
+           .logotip{ 
+           width: 15%;
+           height: 100%;               
+         padding-left: 10px;
+                   
+        }
+     }
+           
+}
