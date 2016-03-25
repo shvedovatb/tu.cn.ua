@@ -901,6 +901,7 @@ a, a:hover {
   border-radius: 2px;
   color: #555252;
 }
+.statistics-menu li select#content{display: none;}
 
 /* Smartphones */
 @media (max-width: 480px) {

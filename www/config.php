@@ -10,19 +10,25 @@ defined('TU') or die('Access denied');/*Вначале
 define('PATH', 'http://tu.cn.ua4/');
 
 // модель
-define('MODEL', 'model/model.php');
+define('MODEL', '/model/model.php');
 
 // контроллер
-define('CONTROLLER', 'controller/controller.php');
-//файл функции
+define('CONTROLLER', '/controller/controller.php');
 
-define('FUNCTIONS', 'functions/functions.php');
+//файл функции
+define('FUNCTIONS', '/functions/functions.php');
 
 // вид
-define('VIEW', 'views/');
+define('VIEW', '/views/');
 
 // папка с активным шаблоном
 define('TEMPLATE', VIEW.'univer/');
+
+// email администратора
+define('ADMIN_EMAIL', 'admin@ishop.com');
+
+// папка шаблонов административной части
+define('ADMIN_TEMPLATE', 'templates/');
 
 // сервер БД
 define('HOST', 'localhost');
@@ -36,11 +42,6 @@ define('PASS', '');
 // БД
 define('DB', 'staff');
 
-// email администратора
-define('ADMIN_EMAIL', 'admin@ishop.com');
-
-// папка шаблонов административной части
-define('ADMIN_TEMPLATE', 'templates/');
 
 // название магазина - title
 /*define('TITLE', 'Интернет магазин сотовых телефонов');*/

@@ -64,6 +64,21 @@ function get_dep_list(){
 	}
 	return $dep_list;
 }
+//поиск преподавателя по первым буквам
+function staff_search($keywords){
+	$sql = "SELECT ac_staff.staff_id, f_name, s_name, l_name, dep_name 
+	FROM ac_staff, ac_staff_dep, department 
+	WHERE f_name like('".$keywords."%')
+	and ac_staff.staff_id=ac_staff_dep.staff_id
+	and ac_staff_dep.dep_id=department.dep_id";
+	$result = mysql_query($sql) or die(mysql_error());
+	if (mysql_num_rows($result) > 0) {
+		while ($row = mysql_fetch_assoc($result)) {
+			$arr[] = $row;
+		}
+	}
+	return $arr;
+}
 
 //Информация о преподавателе для заголовка на странице всех его работ
 function staff_info($staff_id){

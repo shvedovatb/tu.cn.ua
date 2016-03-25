@@ -94,6 +94,16 @@ switch ($view) {
 		}
         
 		break;
+	case 'search':
+        
+        $arr = array();
+        if (!empty($_GET['keywords'])) {
+	    	$keywords = mysql_real_escape_string(strip_tags($_GET['keywords']));
+	    	$arr=staff_search($keywords);
+        }
+        header('Content-Type: application/json');
+		exit(json_encode($arr));
+        break;
 	
 	default:
 		$view = 'main';

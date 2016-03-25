@@ -23,7 +23,7 @@
     </li>              
     <!-- Пункт меню 2 -->      
     <li>
-     <?php if ($_SESION['stat']['department']): ?>
+     <!--<?php if ($_SESION['stat']['department']): ?>
       <select name="staff">     
         <option value="">Вибір викладача</option>
         <?php foreach ($teacherall_info as $item): ?>
@@ -34,7 +34,11 @@
           <?php endif; ?>          
         <?php endforeach; ?> 
       <?php endif; ?>
-      </select>
+      </select>-->
+
+        <input type="text" id="keyword" placeholder="Enter keyword">
+        <select name="staff" id="content" size="5"></select>
+      
     </li>
 
     <li>

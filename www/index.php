@@ -12,7 +12,7 @@ define('TU', TRUE);
 Так как нужен один раз – ставим require_once.
 подключение файла конфигурации
 */
-require_once 'config.php';
+require_once '/config.php';
 
 /* подключение контроллера*/
 require_once CONTROLLER;
